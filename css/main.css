@@ -328,7 +328,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(../img/akatsuki.jpg) no-repeat;
+    background: url(/video/vid_home.mp4) no-repeat;
     background-position: center;
     box-sizing: cover;
     padding-top: 17rem;
