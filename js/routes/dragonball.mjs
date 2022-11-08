@@ -1,10 +1,6 @@
-const onLoad = () => {
-  const router = window.location.hash;
-  switch (router) {
-    case `#dragonball`:
-      document.getElementById(
-        `router`
-      ).innerHTML = `<section class="products" id="products">
+const router = "dragonball";
+
+const HTML = `<section class="products" id="products">
                     <h1 class="heading"><span>Dragon Ball</span></h1>
 
                     <div class="product-slider">
@@ -95,8 +91,8 @@ const onLoad = () => {
                         </div>
                     </div>
                     </section>`;
-      break;
-  }
-  window.scrollTo(0, 0);
+const dragonballRouter = {
+  router,
+  HTML,
 };
-onLoad();
+export default dragonballRouter;
