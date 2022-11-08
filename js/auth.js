@@ -3,6 +3,9 @@ const users = JSON.parse(userLISTSTR ?? "[]")
 const nguoidunght = localStorage.getItem("nguoidungdangdn") ? JSON.parse(localStorage.getItem("nguoidungdangdn")) : null
 if (nguoidunght) {
     document.getElementById("user").innerHTML = `${nguoidunght.name}`
+    document.getElementById("user").addEventListener(`click`, () => {
+        
+    })
 } else {
     let loginForm = document.querySelector('.login-form');
 
@@ -29,13 +32,11 @@ function onSignUp() {
     }
     const user = { name: nameElement.value, email: emailElement.value, password: passwordElement.value }
     users.push(user)
-    alert(user);
     localStorage.setItem("users", JSON.stringify(users));
 }
 
 
 function onLogin() {
-    alert("ok")
     const emailElement = document.querySelector("#lg_email");
     const passwordElement = document.querySelector("#lg_password");
     const exituser = users.filter(u => u.email == emailElement.value);
@@ -50,3 +51,4 @@ function onLogin() {
     localStorage.setItem("nguoidungdangdn", JSON.stringify(exituser[0]));
     location.reload();
 }
+
