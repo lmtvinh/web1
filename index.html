@@ -14,7 +14,7 @@
     <!-- link file css -->
     <link rel="stylesheet" href="css/main.css" />
   </head>
-  <body onhashchange="onLoad()">
+  <body>
     <!-- header section starts -->
     <header class="header">
       <a href="#" class="logo">
@@ -536,6 +536,10 @@
     <!-- <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> -->
     <script src="js/script.js"></script>
     <script src="js/auth.js"></script>
-    <script src="js/categories.js"></script>
+    <script type="module">
+      import onLoad from "./js/categories.mjs";
+      onLoad();
+      window.onhashchange = onLoad;
+    </script>
   </body>
 </html>
