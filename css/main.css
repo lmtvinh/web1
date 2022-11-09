@@ -668,6 +668,14 @@ section {
     text-transform: none;
 }
 
+.page ul {
+    list-style: none;
+}
+
+.page li {
+    list-style: none;
+}
+
 
 
 

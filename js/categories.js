@@ -19,6 +19,7 @@ const onLoad = () => {
                             <i class="fas fa-stars"></i>
                             <i class="fas fa-stars"></i>
                             <i class="fas fa-stars-half-alt"></i>
+                            <a href="#" class="btn">add to cart</a>
                             </div>
                         </div>
                         <!-- 2 -->
@@ -32,6 +33,7 @@ const onLoad = () => {
                             <i class="fas fa-stars"></i>
                             <i class="fas fa-stars"></i>
                             <i class="fas fa-stars-half-alt"></i>
+                            <a href="#" class="btn">add to cart</a>
                             </div>
                         </div>
                         <!-- 3 -->
@@ -45,6 +47,7 @@ const onLoad = () => {
                             <i class="fas fa-stars"></i>
                             <i class="fas fa-stars"></i>
                             <i class="fas fa-stars-half-alt"></i>
+                            <a href="#" class="btn">add to cart</a>
                             </div>
                         </div>
                         </div>
@@ -63,6 +66,7 @@ const onLoad = () => {
                             <i class="fas fa-stars"></i>
                             <i class="fas fa-stars"></i>
                             <i class="fas fa-stars-half-alt"></i>
+                            <a href="#" class="btn">add to cart</a>
                             </div>
                         </div>
                         <!-- 5 -->
@@ -76,6 +80,7 @@ const onLoad = () => {
                             <i class="fas fa-stars"></i>
                             <i class="fas fa-stars"></i>
                             <i class="fas fa-stars-half-alt"></i>
+                            <a href="#" class="btn">add to cart</a>
                             </div>
                         </div>
                         <!-- 6 -->
@@ -89,6 +94,7 @@ const onLoad = () => {
                             <i class="fasfa-stars"></i>
                             <i class="fasfa-stars"></i>
                             <i class="fasfa-stars"></i>
+                            <a href="#" class="btn">add to cart</a>
                             </div>
                         </div>
                         </div>
@@ -114,6 +120,7 @@ const onLoad = () => {
                                 <i class="fas fa-stars"></i>
                                 <i class="fas fa-stars"></i>
                                 <i class="fas fa-stars-half-alt"></i>
+                                <a href="#" class="btn">add to cart</a>
                                 </div>
                             </div>
                             <!-- 2 -->
@@ -127,6 +134,7 @@ const onLoad = () => {
                                 <i class="fas fa-stars"></i>
                                 <i class="fas fa-stars"></i>
                                 <i class="fas fa-stars-half-alt"></i>
+                                <a href="#" class="btn">add to cart</a>
                                 </div>
                             </div>
                             <!-- 3 -->
@@ -140,6 +148,7 @@ const onLoad = () => {
                                 <i class="fas fa-stars"></i>
                                 <i class="fas fa-stars"></i>
                                 <i class="fas fa-stars-half-alt"></i>
+                                <a href="#" class="btn">add to cart</a>
                                 </div>
                             </div>
                             </div>
@@ -158,6 +167,7 @@ const onLoad = () => {
                                 <i class="fas fa-stars"></i>
                                 <i class="fas fa-stars"></i>
                                 <i class="fas fa-stars-half-alt"></i>
+                                <a href="#" class="btn">add to cart</a>
                                 </div>
                             </div>
                             <!-- 5 -->
@@ -171,6 +181,7 @@ const onLoad = () => {
                                 <i class="fas fa-stars"></i>
                                 <i class="fas fa-stars"></i>
                                 <i class="fas fa-stars-half-alt"></i>
+                                <a href="#" class="btn">add to cart</a>
                                 </div>
                             </div>
                             <!-- 6 -->
@@ -184,6 +195,7 @@ const onLoad = () => {
                                 <i class="fasfa-stars"></i>
                                 <i class="fasfa-stars"></i>
                                 <i class="fasfa-stars"></i>
+                                <a href="#" class="btn">add to cart</a>
                                 </div>
                             </div>
                             </div>
@@ -209,6 +221,7 @@ const onLoad = () => {
                         <i class="fas fa-stars"></i>
                         <i class="fas fa-stars"></i>
                         <i class="fas fa-stars-half-alt"></i>
+                        <a href="#" class="btn">add to cart</a>
                         </div>
                     </div>
                     <!-- 2 -->
@@ -222,6 +235,7 @@ const onLoad = () => {
                         <i class="fas fa-stars"></i>
                         <i class="fas fa-stars"></i>
                         <i class="fas fa-stars-half-alt"></i>
+                        <a href="#" class="btn">add to cart</a>
                         </div>
                     </div>
                     <!-- 3 -->
@@ -235,6 +249,7 @@ const onLoad = () => {
                         <i class="fas fa-stars"></i>
                         <i class="fas fa-stars"></i>
                         <i class="fas fa-stars-half-alt"></i>
+                        <a href="#" class="btn">add to cart</a>
                         </div>
                     </div>
                     </div>
@@ -253,6 +268,7 @@ const onLoad = () => {
                         <i class="fas fa-stars"></i>
                         <i class="fas fa-stars"></i>
                         <i class="fas fa-stars-half-alt"></i>
+                        <a href="#" class="btn">add to cart</a>
                         </div>
                     </div>
                     <!-- 5 -->
@@ -266,6 +282,7 @@ const onLoad = () => {
                         <i class="fas fa-stars"></i>
                         <i class="fas fa-stars"></i>
                         <i class="fas fa-stars-half-alt"></i>
+                        <a href="#" class="btn">add to cart</a>
                         </div>
                     </div>
                     <!-- 6 -->
@@ -279,6 +296,7 @@ const onLoad = () => {
                         <i class="fasfa-stars"></i>
                         <i class="fasfa-stars"></i>
                         <i class="fasfa-stars"></i>
+                        <a href="#" class="btn">add to cart</a>
                         </div>
                     </div>
                     </div>
@@ -304,6 +322,7 @@ const onLoad = () => {
                             <i class="fas fa-stars"></i>
                             <i class="fas fa-stars"></i>
                             <i class="fas fa-stars-half-alt"></i>
+                            <a href="#" class="btn">add to cart</a>
                             </div>
                         </div>
                         <!-- 2 -->
@@ -317,6 +336,7 @@ const onLoad = () => {
                             <i class="fas fa-stars"></i>
                             <i class="fas fa-stars"></i>
                             <i class="fas fa-stars-half-alt"></i>
+                            <a href="#" class="btn">add to cart</a>
                             </div>
                         </div>
                         <!-- 3 -->
@@ -330,6 +350,7 @@ const onLoad = () => {
                             <i class="fas fa-stars"></i>
                             <i class="fas fa-stars"></i>
                             <i class="fas fa-stars-half-alt"></i>
+                            <a href="#" class="btn">add to cart</a>
                             </div>
                         </div>
                         </div>
@@ -348,6 +369,7 @@ const onLoad = () => {
                             <i class="fas fa-stars"></i>
                             <i class="fas fa-stars"></i>
                             <i class="fas fa-stars-half-alt"></i>
+                            <a href="#" class="btn">add to cart</a>
                             </div>
                         </div>
                         <!-- 5 -->
@@ -361,6 +383,7 @@ const onLoad = () => {
                             <i class="fas fa-stars"></i>
                             <i class="fas fa-stars"></i>
                             <i class="fas fa-stars-half-alt"></i>
+                            <a href="#" class="btn">add to cart</a>
                             </div>
                         </div>
                         <!-- 6 -->
@@ -374,6 +397,7 @@ const onLoad = () => {
                             <i class="fasfa-stars"></i>
                             <i class="fasfa-stars"></i>
                             <i class="fasfa-stars"></i>
+                            <a href="#" class="btn">add to cart</a>
                             </div>
                         </div>
                         </div>
