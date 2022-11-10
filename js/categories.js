@@ -226,8 +226,8 @@ const onLoad = () => {
                     </div>
                     <!-- 2 -->
                     <div class="box">
-                        <img src="img/naruto.jpg" alt="" />
-                        <h3>Naruto</h3>
+                        <img src="img/minato.jpg" alt="" />
+                        <h3>Minato Namikaze</h3>
                         <div class="price">$4.99/- - 10.99/-</div>
                         <div class="stars">
                         <i class="fas fa-stars"></i>
@@ -240,8 +240,8 @@ const onLoad = () => {
                     </div>
                     <!-- 3 -->
                     <div class="box">
-                        <img src="img/naruto.jpg" alt="" />
-                        <h3>Naruto</h3>
+                        <img src="img/itachi.jpg" alt="" />
+                        <h3>Uchiha Itachi</h3>
                         <div class="price">$4.99/- - 10.99/-</div>
                         <div class="stars">
                         <i class="fas fa-stars"></i>
@@ -259,8 +259,8 @@ const onLoad = () => {
                     <div class="wrapper">
                     <!-- 4 -->
                     <div class="box">
-                        <img src="img/sasukejpg.jpg" alt="" />
-                        <h3>Uchiha Sasuke</h3>
+                        <img src="img/guy.jpg" alt="" />
+                        <h3>Might Guy</h3>
                         <div class="price">$4.99/- - 10.99/-</div>
                         <div class="stars">
                         <i class="fas fa-stars"></i>
