@@ -91,8 +91,8 @@ const HTML = `<section class="products" id="products">
                     </div>
                 </section>`;
 const marvelRouter = {
-  routerName: router,
-  HTML,
+    routerName: router,
+    HTML,
 };
 
 export default marvelRouter;
