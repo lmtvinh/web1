@@ -1,0 +1,225 @@
+.<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The King's Man</title>
+    <!-- link font -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- link file css -->
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body onhashchange="onLoad()">
+    <!-- header section starts -->
+    <header class="header">
+      <a href="#" class="logo">
+        <i class="fa-solid fa-users"></i> The King's Man
+      </a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">features</a>
+        <a href="#products">products</a>
+        <a href="#categories">categories</a>
+        <!-- <a href="#review">review</a>
+          <a href="#blogs">blogs</a> -->
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+        <div class="not-icon" id="user"><span>login</span></div>
+      </div>
+
+      <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="img/itachi.jpg" alt="" style="width: 150px" />
+          <div class="content">
+            <h3>content</h3>
+            <span class="price">$2.5/-</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="img/itachi.jpg" alt="" style="width: 150px" />
+          <div class="content">
+            <h3>content</h3>
+            <span class="price">$2.5/-</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="img/itachi.jpg" alt="" style="width: 150px" />
+          <div class="content">
+            <h3>Songoku</h3>
+            <span class="price">$2.5/-</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+
+        <div class="total">total : $19.69/-</div>
+        <a href="#" class="btn">check out</a>
+      </div>
+
+      <form action="" class="login-form">
+        <h3>login now</h3>
+        <input
+          type="email"
+          placeholder="your email"
+          id="lg_email"
+          class="box"
+        />
+        <input
+          type="password"
+          placeholder="your password"
+          id="lg_password"
+          class="box"
+        />
+        <p>forget your password <a href="#">click here</a></p>
+        <p>
+          don't have an account <a id="open-sign-up" href="#">create now</a>
+        </p>
+        <input
+          type="button"
+          value="login now"
+          class="btn"
+          onclick="onLogin()"
+        />
+      </form>
+
+      <!-- sign up starts-->
+      <form action="" class="sign-up">
+        <h3>sign-up</h3>
+        <input type="email" placeholder="your mail" id="su_email" class="box" />
+        <input type="text" placeholder="your name" id="su_name" class="box" />
+        <input
+          type="password"
+          placeholder="your password"
+          id="su_password"
+          class="box"
+        />
+        <input
+          type="button"
+          value="creat now"
+          class="btn"
+          onclick="onSignUp()"
+        />
+      </form>
+      <!-- sign up ends-->
+    </header>
+    <section style="margin-top: 50px" class="selection_admin" id="selection_admin">
+        <h1 class="heading"><span>Trang Admin</span></h1>
+        <div id="admin_section">
+
+        </div>
+        <!-- <table>
+            <tr>
+                <th clas="stt">STT</th>
+                <th class="ten">Ten</th>
+                <th class="gia_goc">Gia Goc</th>
+                <th class="phan_tram_giam_gia">Phan Tram Giam Gia</th>
+                <th class="chuc_nang">Chuc Nang</th>
+            </tr>
+            <tr>
+                <td class="stt">1</td>
+                <td class="ten" style="display: flex">
+                    <img src="" alt="hinhanh">
+                    <p>Ten</p>
+                </td>
+                <td class="gia_goc">Gia Goc</td>
+                <td class="phan_tram_giam_gia">Phan Tram Giam Gia</td>
+                <td class="chuc_nang">
+                    <button onclick="onClickXoaSanPham()">
+                        <i class="fa-solid fa-trash"></i>
+                    </button>
+                    <button onclick="onClickLuuSanPham()">
+                        <i class="fa-solid fa-check"></i>
+                    </button>
+                </td>
+            </tr>
+        </table> -->
+    </section>
+    <script src="js/giohang.js"></script>
+    <script>
+      var danhSachItemGioHang = layGioHangTuLocalStorage();
+      window.onload =()=>{
+        document.getElementById("admin_section").innerHTML = chuyenDanhSachItemGioHangSangHTML(danhSachItemGioHang);
+      }
+        function chuyenDanhSachItemGioHangSangHTML(danhSachItemGioHang) {
+            let htmlTong = '';
+            htmlTong += `
+               <table>
+                <tr>
+                <th clas="stt">STT</th>
+                <th class="ten">Ten</th>
+                <th class="gia_goc">Gia Goc</th>
+                <th class="phan_tram_giam_gia">Phan Tram Giam Gia</th>
+                <th class="chuc_nang">Chuc Nang</th>
+            </tr>
+            `;
+            console.log(htmlTong);
+            for (var i = 0; i < danhSachItemGioHang.length; i++) {
+                htmlTong += chuyenDoiTuongItemGioHangSangHTML(danhSachItemGioHang[i],i);
+            }
+            htmlTong += `</table>`;
+            console.log(htmlTong);
+            return htmlTong;
+        }
+        function chuyenDoiTuongItemGioHangSangHTML(itemGioHang,i) {
+            var sanPham = laySanPhamTheoId(itemGioHang.idSanPham);
+            var html = '';
+            html = `
+              <tr>
+                <td class="stt">${i}</td>
+                <td class="ten" style="display: flex">
+                    <img src="${sanPham.hinhAnh}" alt="hinhanh">
+                    <p>${sanPham.ten}</p>
+                </td>
+                <td class="gia_goc">${sanPham.giaGoc}</td>
+                <td class="phan_tram_giam_gia">${sanPham.phanTramGiamGia}</td>
+                <td class="chuc_nang">
+                    <button onclick="onClickXoaSanPham()">
+                        <i class="fa-solid fa-trash"></i>
+                    </button>
+                    <button onclick="onClickLuuSanPham()">
+                        <i class="fa-solid fa-check"></i>
+                    </button>
+                </td>
+            </tr>
+            `;
+            return html;
+        }
+    </script>
+</body>
